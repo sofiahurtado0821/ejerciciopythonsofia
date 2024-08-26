@@ -1,13 +1,13 @@
 """Una empresa quiere hacer una compra de varias piezas de la misma clase a una fábrica de bolsos. La empresa, dependiendo del monto total de la compra, decidirá qué hacer para pagar al fabricante:
 """
-monto_total = int(input("Ingrese el monto total de la compra: "))
+monto_total = int(input("Ingrese el monto total de la compra: ")) ##pido que ingrese el monto total de la compra
 
-
+##escribo los datos del fabricante
 inversion_propia = 0
 prestamo_banco = 0
 credito_fabricante = 0
 
-
+##mostrar resultados 
 if monto_total > 500000:
 
     inversion_propia = monto_total * 0.55
@@ -22,7 +22,7 @@ else:
 interes_credito = credito_fabricante * 0.20
 total_credito_con_interes = credito_fabricante + interes_credito
 
-
+##forma de imprimir
 print(f"Valor invertido de su propio dinero: ${inversion_propia:,}")
 print(f"Valor prestado al banco: ${prestamo_banco:,}")
 print(f"Valor del crédito solicitado al fabricante: ${credito_fabricante:,}")

@@ -3,11 +3,11 @@ Tomando como base los resultados obtenidos en un laboratorio de análisis clíni
 de hemoglobina en la sangre, de su edad y de su sexo. Si el nivel de hemoglobina que tiene una persona es menor que el rango que le corresponde, se determina su 
 resultado como positivo y en caso contrario como negativo. 
 """
+##Entrada de los datos del paciente
 edad = int(input("Ingrese la edad: "))
 sexo = input("Ingrese el sexo (M/F): ")
 nivel_hemoglobina = int(input("Ingrese el nivel de hemoglobina: "))
-
-
+##Determinar el rango de hemoglobina según la edad y sexo
 if edad <= 1/12:  
     rangoMin, rangoMax = 13, 26
 elif edad <= 6/12:  
@@ -32,5 +32,5 @@ if rangoMin <= nivel_hemoglobina <= rangoMax:
     resultado = "negativo"  
 else:
     resultado = "positivo" 
-
+##Determinar el rango de hemoglobina según la edad y sexo
 print(f"El resultado es: {resultado}")
