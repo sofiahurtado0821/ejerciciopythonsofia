@@ -34,10 +34,10 @@ for i in range(50):
         contadorAncianos += 1
     
     ##calcular promedios 
-    promedioPesoNinos =  pesoNiños / contadorNiños  if contadorNiños > 0 else 0
-    promedioPesoJovenes = pesoJovenes / contadorJovenes if contadorJovenes > 0 else 0
-    promedioPesoAdultos = pesoAdultos / contadorAdultos if contadorAdultos > 0 else 0
-    promedioPesoAncianos = pesoAncianos / contadorAncianos  if contadorAncianos > 0 else 0
+promedioPesoNinos =  pesoNiños / contadorNiños  
+promedioPesoJovenes = pesoJovenes / contadorJovenes 
+promedioPesoAdultos = pesoAdultos / contadorAdultos 
+promedioPesoAncianos = pesoAncianos / contadorAncianos  
 
 ## imprimir resultados 
 print(f"El promedio de peso de los niños es: {promedioPesoNinos} kg")
