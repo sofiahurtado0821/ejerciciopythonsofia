@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Leer 20 números e imprimir cuantos son positivos, cuantos negativos y cuantos
 neutros
@@ -17,3 +18,7 @@ for i in range(20):
 ## imprimir los resultados 
 print(f'Los numeros positivos son: {positivos} los numeros negativos son: {negativos} los numeros neutros son: {neutros}')
     
+=======
+
+
+>>>>>>> c91ba6fd0d344872cd492e0f8dc49cbe28090d76
